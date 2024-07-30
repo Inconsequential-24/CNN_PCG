@@ -1,0 +1,67 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Style */
+h1, h2 {
+    color: #4a4a4a;
+}
+
+/* Upload Button Style */
+#upload-data {
+    margin: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Output and Prediction Output Style */
+#output-data-upload, #prediction-output, #live-monitoring-output {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer Style */
+#footer {
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #e9ecef;
+}
+
+/* Centered Layout */
+#main-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Stethoscope Section Style */
+#stethoscope-section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+#stethoscope-section h2 {
+    color: #007bff;
+}
